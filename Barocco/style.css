@@ -61,12 +61,12 @@ img {
 
 .contenitore-pulsanti {
     height: 80px;
-    width: 870px;
-    margin: auto;
+    width: 940px;
+    float: right;
 }
 
 .pulsanti {
-    width: 150px;
+    width: 130px;
     height: 80px;
     display: inline-block;
     margin-left: 20px;
@@ -101,6 +101,101 @@ img {
     margin: auto;
 }
 
+.contenitore-immagini {
+    border: 1px solid black;
+    width: 1200px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.testo-argomento {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.immagine-argomento {
+    width: 1200px;
+    height: 500px;
+    margin-top: 0;
+}
+
+.riquadri-opere {
+    width: 1200px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.riquadro-opera {
+    width: 300px;
+    height: 450px;
+    margin-left: 75px;
+    display: inline-block;
+}
+
+.riquadro-opera-immagine {
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+}
+
+.riquadro-opera-testo {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.testo-nome-opera {
+    width: 300px;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.testo-nome-autore {
+    width: 300px;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.esponenti {
+    width: 1200px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.immagine-esponenti {
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+}
+
+.testo-esponenti {
+    border: 1px solid black;
+    width: 850px;
+    height: 400px;
+    display: inline-block;
+}
+
+.testo-esponenti-destra,
+.immagine-esponenti-destra {
+    float: right;
+}
+
 .slider {
     border: 1px solid black;
     width: 1000px;
@@ -129,6 +224,20 @@ img {
 
 .slider-pulsante-destra {
     margin-left: 950px;
+}
+
+.argomento {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 375px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
 }
 
 .slider-foto {
@@ -190,7 +299,6 @@ img {
     height: 70px;
     margin-left: 40px;
     margin-top: 25px;
-    ;
 }
 
 .footer {
