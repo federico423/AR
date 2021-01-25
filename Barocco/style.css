@@ -66,7 +66,7 @@ img {
 }
 
 .pulsanti {
-    width: 130px;
+    width: 160px;
     height: 80px;
     display: inline-block;
     margin-left: 20px;
@@ -149,6 +149,17 @@ img {
     text-align: center;
 }
 
+.lineax {
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    border-top: 1px solid lightgray;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .linea2 {
     width: 1000px;
     border-bottom: 1px solid lightgray;
@@ -198,6 +209,17 @@ img {
     width: 500px;
     height: 500px;
     margin: auto;
+}
+
+.contenitore-3d {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.foto-3d {
+    width: 500px;
+    height: 500px;
 }
 
 .nulla {
@@ -326,10 +348,26 @@ img {
 }
 
 .testo-esponenti {
-    border: 1px solid black;
     width: 720px;
     height: 300px;
     display: inline-block;
+}
+
+.nome-autore {
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.descrizione-autore {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
 }
 
 .testo-esponenti-destra,
@@ -394,10 +432,34 @@ img {
 }
 
 .contenuto-pagina {
-    border: 1px solid black;
     width: 66%;
     height: 750px;
+    float: left;
     display: inline-block;
+    font-size: 20px;
+}
+
+.contenuto-pagina-titolo {
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+    line-height: 40px;
+}
+
+.contenuto {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 18px;
 }
 
 .altri-articoli {
