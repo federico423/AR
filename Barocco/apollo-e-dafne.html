@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="Immagini/Logo/logo.png" />
+    <title>Apollo e Dafne</title>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script>
+    <script src="https://unpkg.com/fullscreen-polyfill@1.0.2/dist/fullscreen.polyfill.js"></script>
+    <script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-contenuto">
+            <div class="header-logo">
+                <div class="logo-img">
+                    <a href="index.html"><img src="Immagini/Logo/logo.png"> </a>
+                </div>
+                <div class="logo-txt">
+                    <a class="logo-txtx" href="index.html">BAROCCO</a>
+                </div>
+            </div>
+            <div class="header-pulsanti">
+                <div class="contenitore-pulsanti">
+                    <div class="pulsanti">
+                        <a class="pulsanti-testo" href="index.html">Homepage</a>
+                    </div>
+                    <div class="pulsanti">
+                        <a class="pulsanti-testo" href="esponenti.html">Esponenti</a>
+                    </div>
+                    <div class="pulsanti">
+                        <a class="pulsanti-testo" href="sculture.html">Sculture</a>
+                    </div>
+                    <div class="pulsanti">
+                        <a class="pulsanti-testo" href="architettura.html">Architettura</a>
+                    </div>
+                    <div class="pulsanti">
+                        <a class="pulsanti-testo" href="dipinti.html">Dipinti</a>
+                    </div>
+                    <div class="pulsanti">
+                        <a class="pulsanti-testo" href="galleria.html">Galleria</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenitore1">
+        <div class="contenitore2">
+            <div class="contenitore-immagini2">
+                <div id="foto0">
+                    <model-viewer class="modello-3d" src="asset/apollo_dafne.glb" alt="Apollo e Dafne" shadow-intensity="1" camera-controls interaction-prompt="auto" auto-rotate ar magic-leap></model-viewer>
+                </div>
+                <div id="foto1" class="vuoto">
+                    <img class="foto" src="Immagini/Statue/Apollo-e-Dafne.jpg">
+                </div>
+                <div id="foto2" class="vuoto">
+                    <img class="foto" src="Immagini/Statue/Apollo-e-Dafne2.jpg">
+                </div>
+                <div id="foto3" class="vuoto">
+                    <img class="foto" src="Immagini/Statue/Apollo-e-Dafne3.jpg">
+                </div>
+                <div id="foto4" class="vuoto">
+                    <img class="foto" src="Immagini/Statue/Apollo-e-Dafne4.jpg">
+                </div>
+                <div id="foto5" class="vuoto">
+                    <img class="foto" src="Immagini/Statue/Apollo-e-Dafne5.jpg">
+                </div>
+            </div>
+            <div class="linea">
+                <div class="altre-immagini">
+                    <div class="bottoni">
+                        <input type="image" class="bottone-immagine" id="bottone0" onclick="bottone0()" src="Immagini/Statue/Apollo-e-Dafne0.jpg">
+                    </div>
+                    <div class="bottoni">
+                        <input type="image" class="bottone-immagine" id="bottone1" onclick="bottone1()" src="Immagini/Statue/Apollo-e-Dafne.jpg">
+                    </div>
+                    <div class="bottoni">
+                        <input type="image" class="bottone-immagine" id="bottone2" onclick="bottone2()" src="Immagini/Statue/Apollo-e-Dafne2.jpg">
+                    </div>
+                    <div class="bottoni">
+                        <input type="image" class="bottone-immagine" id="bottone3" onclick="bottone3()" src="Immagini/Statue/Apollo-e-Dafne3.jpg">
+                    </div>
+                    <div class="bottoni">
+                        <input type="image" class="bottone-immagine" id="bottone4" onclick="bottone4()" src="Immagini/Statue/Apollo-e-Dafne4.jpg">
+                    </div>
+                    <div class="bottoni">
+                        <input type="image" class="bottone-immagine" id="bottone5" onclick="bottone5()" src="Immagini/Statue/Apollo-e-Dafne5.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="opera">
+                <div class="nome-opera">
+                    Apollo e Dafne
+                </div>
+
+                <div class="descrizione-opera">
+                    <div class="x">
+                        <div class="x1">
+                            Autore
+                        </div>
+                        <div class="x2">
+                            Gian Lorenzo Bernini
+                        </div>
+                    </div>
+                    <div class="x">
+                        <div class="x1">
+                            Data
+                        </div>
+                        <div class="x2">
+                            1622-1625
+                        </div>
+                    </div>
+                    <div class="x">
+                        <div class="x1">
+                            Periodo
+                        </div>
+                        <div class="x2">
+                            Barocco
+                        </div>
+                    </div>
+                    <div class="x">
+                        <div class="x1">
+                            Collocazione
+                        </div>
+                        <div class="x2">
+                            Galleria Borghese, Roma
+                        </div>
+                    </div>
+                    <div class="x">
+                        <div class="x1">
+                            Dimensioni
+                        </div>
+                        <div class="x2">
+                            243cm (altezza)
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="qr">
+                <img class="codice-qr" src="Immagini/Codici-QR/apollo-e-dafne-qr.png">
+            </div>
+
+            <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+            <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-contenuto">
+
+        </div>
+    </div>
+</body>
+
+</html>

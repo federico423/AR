@@ -101,6 +101,135 @@ img {
     margin: auto;
 }
 
+.contenitore3 {
+    width: 1000px;
+    margin: auto;
+}
+
+.qr {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.codice-qr {
+    width: 200px;
+    height: 200px;
+    margin-top: 0;
+}
+
+.contenitore-immagini2 {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.opera {
+    width: 1000px;
+    height: "";
+    margin: auto;
+}
+
+.nome-opera {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.linea {
+    width: 1000px;
+    height: 150px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.linea2 {
+    width: 1000px;
+    border-bottom: 1px solid lightgray;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bottoni {
+    width: "";
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.bottone-immagine {
+    width: "";
+    height: 100px;
+}
+
+.descrizione-opera {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.x {
+    border-bottom: 1px solid lightgray;
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.x1 {
+    display: inline-block;
+    width: 300px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.x2 {
+    display: inline-block;
+}
+
+.modello-3d {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.nulla {
+    text-decoration: none;
+    color: black;
+}
+
+.spazio {
+    height: 50px;
+}
+
+.vuoto {
+    position: absolute;
+    display: none;
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+}
+
+.pieno {
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+}
+
+.foto {
+    width: "";
+    height: 400px;
+    margin-top: 50px;
+}
+
 .contenitore-immagini {
     border: 1px solid black;
     width: 1200px;
@@ -147,6 +276,12 @@ img {
     height: 350px;
 }
 
+.opera-immagine {
+    width: 300px;
+    height: 350px;
+    margin-top: 0;
+}
+
 .riquadro-opera-testo {
     width: 300px;
     height: 100px;
@@ -171,23 +306,29 @@ img {
 }
 
 .esponenti {
-    width: 1200px;
-    height: 400px;
+    width: 1000px;
+    height: 300px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 .immagine-esponenti {
     border: 1px solid black;
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     display: inline-block;
+}
+
+.foto-esponenti {
+    width: 250px;
+    height: 300px;
+    margin-top: 0px;
 }
 
 .testo-esponenti {
     border: 1px solid black;
-    width: 850px;
-    height: 400px;
+    width: 720px;
+    height: 300px;
     display: inline-block;
 }
 
@@ -255,15 +396,26 @@ img {
 .contenuto-pagina {
     border: 1px solid black;
     width: 66%;
-    height: 700px;
+    height: 750px;
     display: inline-block;
 }
 
 .altri-articoli {
     width: 33%;
-    height: 700px;
+    height: 750px;
     display: inline-block;
     overflow: hidden;
+}
+
+.ultime-notizie {
+    border-bottom: 1px solid lightgray;
+    width: 290px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .articoli {
@@ -274,9 +426,14 @@ img {
 }
 
 .titolo-articoli {
-    width: 300px;
+    width: 260px;
     height: 50px;
     background-color: black;
+    padding-left: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
 }
 
 .articolo1 {
@@ -299,6 +456,27 @@ img {
     height: 70px;
     margin-left: 40px;
     margin-top: 25px;
+    display: inline-block;
+    float: left;
+}
+
+.immagine-articolo {
+    width: 70px;
+    height: 70px;
+    margin-top: 0;
+}
+
+.altri-articoli-testo {
+    width: 140px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.altro-articolo-nome {
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .footer {
